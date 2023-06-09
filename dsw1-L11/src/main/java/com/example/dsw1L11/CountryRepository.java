@@ -38,6 +38,35 @@ public class CountryRepository {
 		uk.setPopulation(63705000);
 
 		countries.put(uk.getName(), uk);
+
+		//Agrege estos paises y primero tienes que agregar a tu countries el tipo de moneda del current
+
+		Country pe = new Country();
+		pe.setName("Peru");
+		pe.setCapital("Lima");
+		pe.setCurrency(Currency.PEN);
+		pe.setPopulation(1005000);
+
+		countries.put(pe.getName(), pe);
+
+
+		Country eu = new Country();
+		eu.setName("Estados Unidos");
+		eu.setCapital("Washington DC");
+		eu.setCurrency(Currency.DOL);
+		eu.setPopulation(1205000);
+
+		countries.put(eu.getName(), eu);
+
+
+		Country me = new Country();
+		me.setName("Mexico");
+		me.setCapital("Ciudad de Mexico");
+		me.setCurrency(Currency.PES);
+		me.setPopulation(1305000);
+
+		countries.put(me.getName(), me);
+
 	}
 
 	public Country findCountry(String name) {

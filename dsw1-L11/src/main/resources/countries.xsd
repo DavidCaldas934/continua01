@@ -31,6 +31,9 @@
             <xs:enumeration value="GBP"/>
             <xs:enumeration value="EUR"/>
             <xs:enumeration value="PLN"/>
+            <xs:enumeration value="PEN"/>
+            <xs:enumeration value="DOL"/>
+            <xs:enumeration value="PES"/>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>

@@ -18,6 +18,7 @@ public class CountryRepository {
 		Country spain = new Country();
 		spain.setName("Spain");
 		spain.setCapital("Madrid");
+		spain.setComida("Paella");
 		spain.setCurrency(Currency.EUR);
 		spain.setPopulation(46704314);
 
@@ -26,6 +27,7 @@ public class CountryRepository {
 		Country poland = new Country();
 		poland.setName("Poland");
 		poland.setCapital("Warsaw");
+		poland.setComida("Fetichini");
 		poland.setCurrency(Currency.PLN);
 		poland.setPopulation(38186860);
 
@@ -34,6 +36,7 @@ public class CountryRepository {
 		Country uk = new Country();
 		uk.setName("United Kingdom");
 		uk.setCapital("London");
+		uk.setComida("Jaked Potato");
 		uk.setCurrency(Currency.GBP);
 		uk.setPopulation(63705000);
 
@@ -44,6 +47,7 @@ public class CountryRepository {
 		Country pe = new Country();
 		pe.setName("Peru");
 		pe.setCapital("Lima");
+		pe.setComida("Ceviche");
 		pe.setCurrency(Currency.PEN);
 		pe.setPopulation(1005000);
 
@@ -53,6 +57,7 @@ public class CountryRepository {
 		Country eu = new Country();
 		eu.setName("Estados Unidos");
 		eu.setCapital("Washington DC");
+		eu.setComida("Hamburguesa");
 		eu.setCurrency(Currency.DOL);
 		eu.setPopulation(1205000);
 
@@ -62,6 +67,7 @@ public class CountryRepository {
 		Country me = new Country();
 		me.setName("Mexico");
 		me.setCapital("Ciudad de Mexico");
+		me.setComida("Enchiladas");
 		me.setCurrency(Currency.PES);
 		me.setPopulation(1305000);
 
